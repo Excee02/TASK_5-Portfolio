@@ -152,7 +152,7 @@ margin: 5px;
     height: auto;
     background-image: url(./Assets/images/line-png-27976.png);
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: 40px 100%;
     background-position: center;
     padding-bottom:100px ;
     margin-bottom: 50px;
@@ -179,9 +179,16 @@ margin: 5px;
 .resume-container:hover div{
     top: 0;
 } */
+.fa-solid.fa-briefcase.fa-xl {
+    display: inline-flex;
+    padding: 20px 10px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+}
 
 .resume-container .first {
-    width: 51%;
+    width: 51.5%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -205,7 +212,7 @@ margin: 5px;
 
 .resume-container .second {
     width: 51%;
-    margin-left: 49%;
+    margin-left: 48.5%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -228,7 +235,7 @@ margin: 5px;
 
 
 .resume-container .third {
-    width: 51%;
+    width: 51.5%;
     display: flex;
     margin-bottom: 80px;
 }
@@ -265,16 +272,10 @@ margin: 5px;
     display: inline-flex;
 }
 
-.fa-solid.fa-briefcase.fa-xl {
-    display: inline-flex;
-    padding: 20px 10px;
-    border-radius: 50%;
-    background-color: orange;
-    color: white;
-}
+
 .resume-container .fourth {
     width: 51%;
-    margin-left: 49%;
+    margin-left: 48.5%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -297,7 +298,7 @@ margin: 5px;
 
 
 .resume-container .fifth {
-    width: 51%;
+    width: 51.5%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -320,7 +321,7 @@ margin: 5px;
 
 .resume-container .sixth {
     width: 51%;
-    margin-left: 49%;
+    margin-left: 48.5%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -343,7 +344,7 @@ margin: 5px;
 
 
 .resume-container .seventh {
-    width: 51%;
+    width: 51.5%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -436,19 +437,6 @@ margin: 5px;
     overflow: hidden;
  }
 
- /* .skills .circles-container .circles>div{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    border-top-color: black;
-    border-right-color: black;
-    transform: rotate(288deg);
-
- } */
 
  .skills .circles-container{
     display: flex;
@@ -457,16 +445,16 @@ margin: 5px;
  }
 
  .work {
-    background-color: aquamarine;
+    background-color: orange;padding-bottom: 100px;
  }
 
  .work h1 {
     text-align: center;
-    margin-bottom: 50px;
+    padding: 100px;
  }
 
  .work div {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 90%;
     margin-left: 5%;
     display: grid;
@@ -483,6 +471,7 @@ margin: 5px;
     align-items: center;
     justify-content: center;
     height: 200px;
+    cursor: pointer;
 
  }
 
@@ -509,6 +498,7 @@ margin: 5px;
  }
 
  .medium .head {
+    padding: 100px 0px;
     text-align: center;
     width: 90%;
     margin-left: 5%;
@@ -564,12 +554,19 @@ margin: 5px;
     width: 30%;
  }
 
+ .medium .body div div div .analytics img {
+    padding-right: 5px;
+ }
+
+ .medium .body div div div .analytics p {
+    padding-right: 10px;
+ }
+
  .medium .body div div div .read-more {
-    /* padding: 0px; */
+    cursor: pointer;
     width: 30%;
     a{
         text-decoration: none ;
-        
     }
  }
  .medium .body div div div .read-more:hover {
@@ -577,6 +574,75 @@ margin: 5px;
         transform: scale(1.1);
  }
 
+ .hire {
+    background-color: #ffa500;
+    padding: 100px 0px;
+    margin-top: 100px;
+ }
+
+ .hire div {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .hire h1, p {
+    margin-bottom: 20px;
+ }
+ .hire p {
+    line-height: 30px;
+ }
+ .hire button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: orange;
+ }
+
+ .form {
+    width: 50%;
+    margin-left: 50%;
+ }
+
+ .form form {
+    padding: 30px ;
+ }
+
+ .form form label {
+    font-size: 40px;
+    margin: 10px;
+ }
+
+ .form form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+ }
+
+ .form form textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+ }
+
+ .form form button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: orange;
+    color: white;
+    margin: 10px;
+ }
+
+ footer div {
+    display: flex;
+    justify-content: center;
+ }
  
 
  
