@@ -1,7 +1,20 @@
+@font-face {
+    font-family: halflings;
+    src: url(./Assets/fonts/bootstrap/glyphicons-halflings-regular.ttf);
+}
+
+@font-face {
+    font-family: Icomoon;
+    src: url(./Assets/fonts/icomoon/icomoon.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+p {
+    font-family: Icomoon;
 }
 
 .header {
@@ -34,6 +47,7 @@ margin-bottom: 100px;
     margin-bottom: 50px;
     font-weight: bolder;
     font-size: xx-large;
+    font-family: Icomoon;
 }
 
 .header-container p {
@@ -176,6 +190,10 @@ margin: 5px;
     border-radius: 50%;
     background-color: orange;
     color: white;
+}
+
+.resume-container>div .two {
+    font-family: halflings;
 }
 
 .resume-container .first {
@@ -438,6 +456,41 @@ margin: 5px;
     justify-content: space-around;
  }
 
+ .skills .lines>div div {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .skills .lines>div div {
+    border-bottom: 2px solid #ccc ;
+    position: relative;
+ }
+
+ .skills .lines>div div::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    border-bottom: 2px solid red;
+
+ }
+
+ .skills .lines>div div p {
+    margin-bottom: 10px;
+ }
+
+ .skills .lines>div {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+    margin-bottom: 50px;
+ }
+
+ .skills .lines{
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
  .work {
     background-color: orange;padding-bottom: 100px;
  }
@@ -667,13 +720,13 @@ margin: 5px;
     }
 
     .about>div .left {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        padding: 10px;
     }
 
     .about>div .right {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        padding: 10px;
     }
 
     .resume-container {
@@ -684,7 +737,7 @@ margin: 5px;
         background-position: left;
         padding-bottom:100px ;
         margin-bottom: 50px;
-        margin-left: 10%;
+        margin-left: 5%;
         scroll-margin-top: 100px ;
     }
 
@@ -788,6 +841,13 @@ margin: 5px;
         display: grid;
         gap: 50px;
         grid-template-columns: 1fr 1fr;
+     }
+
+     .skills .lines>div {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr ;
+        margin-bottom: 50px;
      }
 
      .work div {
