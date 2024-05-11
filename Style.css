@@ -47,7 +47,9 @@ margin-bottom: 100px;
     margin-bottom: 50px;
     font-weight: bolder;
     font-size: xx-large;
-    font-family: Icomoon;
+    font-family: "Cedarville Cursive", cursive;
+    font-style: normal;
+    
 }
 
 .header-container p {
