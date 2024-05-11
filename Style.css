@@ -43,7 +43,7 @@ margin-bottom: 100px;
 
 .header-container h3 {
     align-self: center;
-    transform: rotate(-10deg);
+    transform: rotate(-3deg);
     margin-bottom: 50px;
     font-weight: bolder;
     font-size: xx-large;
@@ -442,11 +442,66 @@ margin: 5px;
     justify-content: center;
     padding: 30px;
     border-radius: 50%;
-    border:4px orange solid;
     position: relative;
     width: 150px;
     height: 150px;
     overflow: hidden;
+ }
+
+ .skills .circles-container .circles .html {
+    border-top:10px orange solid;
+    border-right:10px orange solid;
+    border-bottom: 10px orange solid;
+    border-left: 10px solid #999999;
+ }
+
+ .skills .circles-container .circles .css {
+    border-top:10px orange solid;
+    border-right:10px solid #999999;
+    border-bottom: 10px orange solid;
+    border-left: 10px orange solid ;
+ }
+
+ .skills .circles-container .circles .jQuery {
+    border-top:10px #999999 solid;
+    border-right:10px solid orange;
+    border-bottom: 10px orange solid;
+    border-left: 10px orange solid ;
+ }
+
+ .skills .circles-container .circles .php {
+    border-top:10px orange solid;
+    border-right:10px orange solid;
+    border-bottom: 10px orange solid;
+    border-left: 10px solid #999999;
+ }
+
+ .skills .circles-container .circles .sql {
+    border-top:10px orange solid;
+    border-right:10px orange solid;
+    border-bottom: 10px orange solid;
+    border-left: 10px solid #999999;
+ }
+
+ .skills .circles-container .circles .angular {
+    border-top:10px orange solid;
+    border-right:10px orange solid;
+    border-bottom: 10px #999999 solid;
+    border-left: 10px solid orange;
+ }
+
+ .skills .circles-container .circles .ruby {
+    border-top:10px orange solid;
+    border-right:10px orange solid;
+    border-bottom: 10px orange solid;
+    border-left: 10px solid #999999;
+ }
+
+  .skills .circles-container .circles .java {
+    border-top:10px #999999 solid;
+    border-right:10px solid orange;
+    border-bottom: 10px orange solid;
+    border-left: 10px orange solid ;
  }
 
 
@@ -462,7 +517,7 @@ margin: 5px;
  }
 
  .skills .lines>div div {
-    border-bottom: 2px solid #ccc ;
+    border-bottom: 4px solid #999999;
     position: relative;
  }
 
@@ -472,7 +527,6 @@ margin: 5px;
     left: 50%;
     width: 50%;
     border-bottom: 2px solid red;
-
  }
 
  .skills .lines>div div p {
